@@ -1,0 +1,44 @@
+nav ul , .category-select ul, #about{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    background: linear-gradient(to top right, yellow, yellowgreen, white);
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+nav ul li , .category-select ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: xx-large;
+    border: 0 solid black;
+    border-radius: 4px;
+    background: rgba(0,0,0,0);
+    transition: background .4s;
+}
+
+nav ul li:hover {
+    background: rgba(123, 123, 123, 0.604)
+}
+
+.video-card {
+    background: linear-gradient(yellow, yellowgreen, white);
+    border: 3px double black;
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.video-card video {
+    border: 2px double white;
+    border-radius: 7.5px;
+    height: 300px;
+}
+
+section {
+    justify-self: center;
+    font-size: xx-large;
+}
